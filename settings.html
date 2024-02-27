@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>template 4</title>
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="nav pd-20 shadow">
+            <h3 class="text-center mg-50 ps-relative">elzero</h3>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-chart-column"></i><span>dashboard</span></a></li>
+                <li><a href="settings.html" class="active"><i class="fas fa-gear"></i><span>settings</span></a></li>
+                <li><a href="profile.html"><i class="far fa-user"></i><span>profile</span></a></li>
+                <li><a href="projects.html"><i class="fas fa-share-nodes"></i><span>projects</span></a></li>
+                <li><a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a></li>
+                <li><a href="friends.html"><i class="far fa-circle-user"></i><span>friends</span></a></li>
+                <li><a href="files.html"><i class="far fa-file"></i><span>files</span></a></li>
+                <li><a href="plans.html"><i class="fas fa-spinner"></i><span>plans</span></a></li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- start header -->
+            <div class="header pd-10 d-flex">
+                <div class="search border-rd">
+                    <i class="fas fa-search"></i>
+                    <input type="text" name="key" placeholder="type a keyword">
+                </div>
+                <div class="image-bell d-flex">
+                    <i class="far fa-bell ps-relative"></i>
+                    <img src="img/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end header -->
+            <h2 class="ps-relative main-title">settings</h2>
+            <div class="settings pd-20">
+                <div class="box site-control">
+                    <div class="description">
+                        <h3>site control</h3>
+                        <p>control the website if there is maintenance</p>
+                    </div>
+                    <div class="control">
+                        <div class="text">
+                            <h4>website control</h4>
+                            <p>open/close website and type the reason</p>
+                        </div>
+                        <label class="rounded-check">
+                            <input type="checkbox" checked>
+                            <div class=""></div>
+                        </label>
+                    </div>
+                    <textarea placeholder="close message content"></textarea>
+                </div>
+                <div class="box general-info">
+                    <div class="description">
+                        <h3>general info</h3>
+                        <p>general information about your account</p>
+                    </div>
+                    <form action="">
+                        <div class="fname">
+                            <label for="fname">first name</label>
+                            <input type="text" name="fname" id="fname" placeholder="first name">
+                        </div>
+                        <div class="lname">
+                            <label for="lname">last name</label>
+                            <input type="text" name="lname" id="lname" placeholder="last name">
+                        </div>
+                        <div class="email">
+                            <label for="email">email</label>
+                            <input type="text" name="emial" id="email" placeholder="a@nn">
+                        </div>
+                    </form>
+                </div>
+                <div class="box security-info">
+                    <div class="description">
+                        <h3>securety info</h3>
+                        <p>security information about your account</p>
+                    </div>
+                    <div class="one-info">
+                        <div class="text">
+                            <h4>password</h4>
+                            <p>last change on 25/10/2021</p>
+                        </div>
+                        <button class="change">change</button>
+                    </div>
+                    <div class="one-info">
+                        <div class="text">
+                            <h4>two factor authentication</h4>
+                            <p>enable/disable the feature</p>
+                        </div>
+                        <label class="rounded-check">
+                            <input type="checkbox" checked>
+                            <div></div>
+                        </label>
+                    </div>
+                    <div class="one-info">
+                        <div class="text">
+                            <h4>devices</h4>
+                        <p>check the login devices list</p>
+                        </div>
+                        <button>devices</button>
+                    </div>
+                </div>
+                <div class="box social-info">
+                    <div class="description">
+                        <h3>social info</h3>
+                        <p>social media information</p>
+                    </div>
+                    <div class="one-social">
+                        <div class="icon"><i class="fab fa-twitter"></i></div>
+                        <div class="username">twitter username</div>
+                    </div>
+                    <div class="one-social">
+                        <div class="icon"><i class="fab fa-facebook-f"></i></div>
+                        <div class="username">facebook username</div>
+                    </div>
+                    <div class="one-social">
+                        <div class="icon"><i class="fab fa-youtube"></i></div>
+                        <div class="username">youtube username</div>
+                    </div>
+                    <div class="one-social">
+                        <div class="icon"><i class="fab fa-linkedin"></i></div>
+                        <div class="username">linkedin username</div>
+                    </div>
+                </div>
+                <div class="box widgets-control">
+                    <div class="description">
+                        <h3>widgets control</h3>
+                        <p>show/hide widgets</p>
+                    </div>
+                    <div class="checkboxes">
+                        <div class="one-checkbox">
+                            <input type="checkbox" id="one" checked>
+                            <label for="one">quick draft</label>
+                        </div>
+                        <div class="one-checkbox">
+                            <input type="checkbox" id="two" checked>
+                            <label for="two">yearly targets</label>
+                        </div>
+                        <div class="one-checkbox">
+                            <input type="checkbox" id="there" checked>
+                            <label for="there">tickets statistics</label>
+                        </div>
+                        <div class="one-checkbox">
+                            <input type="checkbox" id="four" checked>
+                            <label for="four">latest news</label>
+                        </div>
+                        <div class="one-checkbox">
+                            <input type="checkbox" id="five">
+                            <label for="five">latest tasks</label>
+                        </div>
+                        <div class="one-checkbox">
+                            <input type="checkbox" id="one" checked>
+                            <label for="one">top search items</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="box backup-manager">
+                    <div class="description">
+                        <h3>backup manager</h3>
+                        <p>control backup time and location</p>
+                    </div>
+                    <div class="radios">
+                        <div class="one-radio">
+                            <input type="radio" id="daily">
+                            <label for="daily">daily</label>
+                        </div>
+                        <div class="one-radio">
+                            <input type="radio" id="weekly">
+                            <label for="weekly">weekly</label>
+                        </div>
+                        <div class="one-radio">
+                            <input type="radio" id="monthly">
+                            <label for="monthly">monthly</label>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <div class="card">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                            <h4>megaman</h4>
+                        </div>
+                        <div class="card active">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                            <h4>zero</h4>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                            <h4>sigma</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>template 4</title>
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="nav pd-20 shadow">
+            <h3 class="text-center mg-50 ps-relative">elzero</h3>
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-chart-column"></i><span>dashboard</span></a></li>
+                <li><a href="settings.html"><i class="fas fa-gear"></i><span>settings</span></a></li>
+                <li><a href="profile.html"><i class="far fa-user"></i><span>profile</span></a></li>
+                <li><a href="projects.html"><i class="fas fa-share-nodes"></i><span>projects</span></a></li>
+                <li><a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a></li>
+                <li><a href="friends.html"><i class="far fa-circle-user"></i><span>friends</span></a></li>
+                <li><a href="files.html"><i class="far fa-file"></i><span>files</span></a></li>
+                <li><a href="plans.html"><i class="fas fa-spinner"></i><span>plans</span></a></li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- start header -->
+            <div class="header pd-10 d-flex">
+                <div class="search border-rd">
+                    <i class="fas fa-search"></i>
+                    <input type="text" name="key" placeholder="type a keyword">
+                </div>
+                <div class="image-bell d-flex">
+                    <i class="far fa-bell ps-relative"></i>
+                    <img src="img/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end header -->
+            <h2 class="ps-relative main-title">dashboard</h2>
+            <div class="dashboard pd-20">
+                <!-- start wlcome -->
+                <div class="box">
+                    <div class="one ps-relative">
+                        <div class="welcome">
+                            <h3>welcome</h3>
+                            <p>elzero</p>
+                            <img src="img/avatar.png" alt="avatar">
+                        </div>
+                        <div class="img">
+                            <img src="img/welcome.png" alt="">
+                        </div>
+                    </div>
+                    <div class="two">
+                        <div>
+                            <h4>osama elzero</h4>
+                            <p>devoloper</p>
+                        </div>
+                        <div>
+                            <h4>80</h4>
+                            <p>projects</p>
+                        </div>
+                        <div>
+                            <h4>$8500</h4>
+                            <p>earned</p>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <a href="#">profile</a>
+                    </div>
+                </div>
+                <!-- end welcome -->
+                <!-- start draft -->
+                <div class="box draft">
+                    <h3>quick draft</h3>
+                    <p>write a draft for your ideas</p>
+                    <input type="text" placeholder="title">
+                    <textarea placeholder="your thought"></textarea>
+                    <div class="btn">
+                        <a href="#">save</a>
+                    </div>
+                </div>
+                <!-- end draft -->
+                <!-- start yearly targets -->
+                <div class="box yearly-targets">
+                    <h3>yearl targets</h3>
+                    <p>targets of the year</p>
+                    <div class="targets">
+                        <div class="one-target">
+                            <div class="icon">
+                                <i class="fas fa-dollar"></i>
+                            </div>
+                            <div class="details">
+                                <p>money</p>
+                                <h4>$20.000</h4>
+                                <div class="prog-bar">
+                                    <span data-prog="80"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="one-target">
+                            <div class="icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="details">
+                                <p>projects</p>
+                                <h4>24</h4>
+                                <div class="prog-bar">
+                                    <span data-prog="55"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="one-target">
+                            <div class="icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="details">
+                                <p>team</p>
+                                <h4>12</h4>
+                                <div class="prog-bar">
+                                    <span data-prog="55"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end yearly targets -->
+                <!-- start tickets statistics -->
+                <div class="box tickets-statistics">
+                    <h3>tickets statistics</h3>
+                    <p>everything about support tickets</p>
+                    <div class="tickets">
+                        <div class="one-tickets">
+                            <i class="far fa-rectangle-list"></i>
+                            <h3>2500</h3>
+                            <p>total</p>
+                        </div>
+                        <div class="one-tickets">
+                            <i class="fas fa-spinner"></i>
+                            <h3>500</h3>
+                            <p>pending</p>
+                        </div>
+                        <div class="one-tickets">
+                            <i class="far fa-circle-check"></i>
+                            <h3>1900</h3>
+                            <p>closed</p>
+                        </div>
+                        <div class="one-tickets">
+                            <i class="far fa-rectangle-xmark"></i>
+                            <h3>100</h3>
+                            <p>deleted</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end tickets statistics -->
+                <!-- start latest news -->
+                <div class="box latest-news">
+                    <h3>latest news</h3>
+                    <div class="one-new">
+                        <div class="img"><img src="img/news-04.png" alt=""></div>
+                        <div class="text">
+                            <h5>created SASS section</h5>
+                            <p>new SASS examples & tutorials</p>
+                        </div>
+                    </div>
+                    <div class="one-new">
+                        <div class="img"><img src="img/news-01.png" alt=""></div>
+                        <div class="text">
+                            <h5>changed the disign</h5>
+                            <p>a brand new website disign</p>
+                        </div>
+                    </div>
+                    <div class="one-new">
+                        <div class="img"><img src="img/news-02.png" alt=""></div>
+                        <div class="text">
+                            <h5>team increased</h5>
+                            <p>3 brand new website design</p>
+                        </div>
+                    </div>
+                    <div class="one-new">
+                        <div class="img"><img src="img/news-03.png" alt=""></div>
+                        <div class="text">
+                            <h5>added payment gatewat</h5>
+                            <p>nany new payment gateways added</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end latest news -->
+                <!-- start latest tasks -->
+                <div class="box latest-tasks">
+                    <h3>latest tasks</h3>
+                    <div class="task">
+                        <div class="text">
+                            <h4>record one new video</h4>
+                            <p>record python create ece project</p>
+                        </div>
+                        <i class="fas fa-trash"></i>
+                    </div>
+                    <div class="task">
+                        <div class="text">
+                            <h4>write article</h4>
+                            <p>write low level vs high level languages</p>
+                        </div>
+                        <i class="fas fa-trash"></i>
+                    </div>
+                    <div class="task">
+                        <div class="text">
+                            <h4>finish projectt</h4>
+                            <p>publishh academy programming project</p>
+                        </div>
+                        <i class="fas fa-trash"></i>
+                    </div>
+                    <div class="task task-done">
+                        <div class="text">
+                            <h4>attend the meeting</h4>
+                            <p>attend the project business analysis meeting</p>
+                        </div>
+                        <i class="fas fa-trash"></i>
+                    </div>
+                    <div class="task">
+                        <div class="text">
+                            <h4>finish lesson</h4>
+                            <p>finish teaching flex box</p>
+                        </div>
+                        <i class="fas fa-trash"></i>
+                    </div>
+                </div>
+                <!-- end latest tasks -->
+                <!-- start top search -->
+                <div class="box top-search">
+                    <h3 class="mg-20">top seatch items</h3>
+                    <div class="item head">
+                        <div class="lang">keyword</div>
+                        <div class="num">search count</div>
+                    </div>
+                    <div class="item">
+                        <div class="lang">programming</div>
+                        <div class="num">220</div>
+                    </div>
+                    <div class="item">
+                        <div class="lang">javascript</div>
+                        <div class="num">180</div>
+                    </div>
+                    <div class="item">
+                        <div class="lang">php</div>
+                        <div class="num">160</div>
+                    </div>
+                    <div class="item">
+                        <div class="lang">code</div>
+                        <div class="num">145</div>
+                    </div>
+                    <div class="item">
+                        <div class="lang">design</div>
+                        <div class="num">110</div>
+                    </div>
+                    <div class="item">
+                        <div class="lang">logic</div>
+                        <div class="num">95</div>
+                    </div>
+                </div>
+                <!-- end top search -->
+                <!-- start latest upload -->
+                <div class="box latest-uploads">
+                    <h3 class="mg-20">latest upload</h3>
+                    <div class="one-upload">
+                        <div class="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#f15642"/><path d="M101.744 303.152c0-4.224 3.328-8.832 8.688-8.832h29.552c16.64 0 31.616 11.136 31.616 32.48 0 20.224-14.976 31.488-31.616 31.488h-21.36v16.896c0 5.632-3.584 8.816-8.192 8.816-4.224 0-8.688-3.184-8.688-8.816v-72.032zm16.88 7.28v31.872h21.36c8.576 0 15.36-7.568 15.36-15.504 0-8.944-6.784-16.368-15.36-16.368h-21.36zM196.656 384c-4.224 0-8.832-2.304-8.832-7.92v-72.672c0-4.592 4.608-7.936 8.832-7.936h29.296c58.464 0 57.184 88.528 1.152 88.528h-30.448zm8.064-72.912V368.4h21.232c34.544 0 36.08-57.312 0-57.312H204.72zm99.152 1.024v20.336h32.624c4.608 0 9.216 4.608 9.216 9.072 0 4.224-4.608 7.68-9.216 7.68h-32.624v26.864c0 4.48-3.184 7.92-7.664 7.92-5.632 0-9.072-3.44-9.072-7.92v-72.672c0-4.592 3.456-7.936 9.072-7.936h44.912c5.632 0 8.96 3.344 8.96 7.936 0 4.096-3.328 8.704-8.96 8.704h-37.248v.016z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>
+                        </div>
+                        <div class="text">
+                            <div class="name">my-file.pdf</div>
+                            <p>elzero</p>
+                        </div>
+                        <div class="size">2.9mb</div>
+                    </div>
+                    <div class="one-upload">
+                        <div class="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#f15642"/><path d="M121.408 384.016c-4.096-2.32-6.656-6.912-4.096-12.288l36.72-71.76c3.456-6.784 12.656-7.04 15.856 0l36.08 71.76c5.248 9.968-10.24 17.904-14.848 7.92l-5.632-11.248h-47.2l-5.488 11.264c-2.048 4.352-6.784 5.248-11.392 4.352zm55.008-32.496l-14.464-31.6-15.728 31.6h30.192zm65.184 26.736l-33.776-70.736c-4.992-10.112 10.112-18.416 15.728-7.808l11.392 25.712 14.704 33.76 14.448-33.76 11.392-25.712c5.12-9.712 19.952-3.584 15.616 7.04l-32.624 71.504c-2.944 8.064-12.032 9.984-16.88 0zm65.28-75.104c0-10.48 16.896-10.88 16.896 0v73.04c0 10.624-16.896 10.88-16.896 0v-73.04z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>
+                        </div>
+                        <div class="text">
+                            <div class="name">my-video-file.avi</div>
+                            <p>admin</p>
+                        </div>
+                        <div class="size">4.9mb</div>
+                    </div>
+                    <div class="one-upload">
+                        <div class="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#50bee8"/><path d="M100 303.152c0-4.224 3.328-8.848 8.688-8.848h29.552c16.64 0 31.616 11.136 31.616 32.496 0 20.224-14.976 31.472-31.616 31.472h-21.36v16.896c0 5.648-3.584 8.832-8.192 8.832-4.224 0-8.688-3.184-8.688-8.832v-72.016zm16.88 7.28v31.856h21.36c8.576 0 15.36-7.552 15.36-15.488 0-8.96-6.784-16.368-15.36-16.368h-21.36zm67.44 4.224c2.944-24.816 40.416-29.28 58.08-15.712 8.704 7.024-.512 18.16-8.192 12.528-9.472-6.016-30.96-8.832-33.648 4.464-3.456 20.992 52.192 8.976 51.296 42.992-.896 32.496-47.968 33.264-65.632 18.672-4.24-3.44-4.096-9.056-1.792-12.528 3.328-3.312 7.024-4.464 11.392-.896 10.48 7.168 37.488 12.544 39.392-5.648-1.648-18.912-54.88-7.52-50.896-43.872zM278.24 384c-4.224 0-8.832-2.32-8.832-7.936v-72.656c0-4.608 4.608-7.936 8.832-7.936h29.296C366 295.472 364.72 384 308.688 384H278.24zm8.064-72.928v57.312h21.232c34.544 0 36.08-57.312 0-57.312h-21.232z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>
+                        </div>
+                        <div class="text">
+                            <div class="name">my-psd-file.pdf</div>
+                            <p>osama</p>
+                        </div>
+                        <div class="size">4.4mb</div>
+                    </div>
+                    <div class="one-upload">
+                        <div class="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#84bd5a"/><path d="M132.64 384c-8.064 0-11.264-7.792-6.656-13.296l45.552-60.512h-37.76c-11.12 0-10.224-15.712 0-15.712h51.568c9.712 0 12.528 9.184 5.632 16.624l-43.632 56.656h41.584c10.24 0 11.52 16.256-1.008 16.256h-55.28V384zm79.408-80.848c0-10.496 16.896-10.88 16.896 0v73.04c0 10.608-16.896 10.88-16.896 0v-73.04zm39.568 0c0-4.224 3.328-8.832 8.704-8.832h29.552c16.64 0 31.616 11.136 31.616 32.48 0 20.224-14.976 31.488-31.616 31.488h-21.36v16.896c0 5.632-3.584 8.816-8.192 8.816-4.224 0-8.704-3.184-8.704-8.816v-72.032zm16.88 7.28v31.872h21.36c8.576 0 15.36-7.568 15.36-15.504 0-8.944-6.784-16.368-15.36-16.368h-21.36z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>
+                        </div>
+                        <div class="text">
+                            <div class="name">my-zip.pdf</div>
+                            <p>user</p>
+                        </div>
+                        <div class="size">9.9mb</div>
+                    </div>
+                    <div class="one-upload">
+                        <div class="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#576d7e"/><path d="M118.08 384c-4.224 0-8.832-2.32-8.832-7.936v-72.656c0-4.608 4.608-7.936 8.832-7.936h29.296c58.464 0 57.184 88.528 1.152 88.528H118.08zm8.064-72.928v57.312h21.232c34.544 0 36.08-57.312 0-57.312h-21.232zm82.464-7.92c0-4.224 3.584-7.808 8.064-7.808 4.096 0 7.552 3.6 7.552 7.808v64.096h34.8c12.528 0 12.8 16.752 0 16.752h-42.336c-4.48 0-8.064-3.184-8.064-7.808v-73.04h-.016zm74.944 0c0-4.224 3.584-7.808 8.064-7.808 4.096 0 7.552 3.6 7.552 7.808v64.096h34.8c12.528 0 12.8 16.752 0 16.752h-42.336c-4.48 0-8.064-3.184-8.064-7.808v-73.04h-.016z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>
+                        </div>
+                        <div class="text">
+                            <div class="name">my-dll.pdf</div>
+                            <p>elzero</p>
+                        </div>
+                        <div class="size">9.2mb</div>
+                    </div>
+                    <div class="one-upload">
+                        <div class="img">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M128 0c-17.6 0-32 14.4-32 32v448c0 17.6 14.4 32 32 32h320c17.6 0 32-14.4 32-32V128L352 0H128z" fill="#e2e5e7"/><path d="M384 128h96L352 0v96c0 17.6 14.4 32 32 32z" fill="#b0b7bd"/><path fill="#cad1d8" d="M480 224l-96-96h96z"/><path d="M416 416c0 8.8-7.2 16-16 16H48c-8.8 0-16-7.2-16-16V256c0-8.8 7.2-16 16-16h352c8.8 0 16 7.2 16 16v160z" fill="#f7b84e"/><path d="M116.608 384c-4.48 0-7.936-3.456-7.936-7.936v-72.656c0-4.608 3.456-7.936 7.936-7.936h45.92c11.776 0 11.52 16.624 0 16.624h-36.832v19.2h32.24c11.376 0 11.376 16.768 0 16.768h-32.24v19.184h39.024c11.648 0 12.528 16.752 0 16.752h-48.112zm73.872-80.848c0-4.224 3.328-8.848 8.704-8.848h29.552c16.64 0 31.616 11.136 31.616 32.496 0 20.224-14.976 31.472-31.616 31.472h-21.36v16.896c0 5.648-3.584 8.832-8.192 8.832-4.224 0-8.704-3.184-8.704-8.832v-72.016zm16.896 7.28v31.856h21.36c8.576 0 15.36-7.552 15.36-15.488 0-8.96-6.784-16.368-15.36-16.368h-21.36zm67.424 4.224c2.944-24.816 40.416-29.28 58.08-15.712 8.704 7.024-.512 18.16-8.192 12.528-9.472-6.016-30.96-8.832-33.648 4.464-3.456 20.992 52.192 8.976 51.296 42.992-.896 32.496-47.968 33.264-65.632 18.672-4.224-3.44-4.096-9.056-1.792-12.528 3.328-3.312 7.024-4.464 11.392-.896 10.48 7.168 37.488 12.544 39.408-5.648-1.664-18.912-54.88-7.52-50.912-43.872z" fill="#fff"/><path d="M400 432H96v16h304c8.8 0 16-7.2 16-16v-16c0 8.8-7.2 16-16 16z" fill="#cad1d8"/></svg>
+                        </div>
+                        <div class="text">
+                            <div class="name">my-eps.pdf</div>
+                            <p>designer</p>
+                        </div>
+                        <div class="size">8.5mb</div>
+                    </div>
+                </div>
+                <!-- end latest upload -->
+                <!-- start project progress -->
+                <div class="box project-progress">
+                    <h3 class="mg-20">last project progress</h3>
+                    <div class="prog">
+                        <div class="circle">
+                            <span class="done"></span>
+                        </div>
+                        got the project
+                    </div>
+                    <div class="prog">
+                        <div class="circle">
+                            <span class="done"></span>
+                        </div>
+                        started the project
+                    </div>
+                    <div class="prog">
+                        <div class="circle">
+                            <span class="done"></span>
+                        </div>
+                        the project about to finish
+                    </div>
+                    <div class="prog">
+                        <div class="circle">
+                            <span class="in"></span>
+                        </div>
+                        test the project
+                    </div>
+                    <div class="prog">
+                        <div class="circle">
+                            <span></span>
+                        </div>
+                        finish the project & get money
+                    </div>
+                </div>
+                <!-- end project progress -->
+                <!-- start reminders -->
+                <div class="box reminders">
+                    <h3 class="mg-20">reminders</h3>
+                    <div class="one-reminde">
+                        <i class="fas fa-circle"></i>
+                        <div class="text">
+                            <h4>check my tasks list</h4>
+                            <p>18/09/2022 - 12:00m</p>
+                        </div>
+                    </div>
+                    <div class="one-reminde">
+                        <i class="fas fa-circle"></i>
+                        <div class="text">
+                            <h4>check my projects</h4>
+                            <p>26/10/2022 - 12:00m</p>
+                        </div>
+                    </div>
+                    <div class="one-reminde">
+                        <i class="fas fa-circle"></i>
+                        <div class="text">
+                            <h4>call all my clients</h4>
+                            <p>07/11/2022 - 12:00m</p>
+                        </div>
+                    </div>
+                    <div class="one-reminde">
+                        <i class="fas fa-circle"></i>
+                        <div class="text">
+                            <h4>finsh the development workshop</h4>
+                            <p>10/12/2022 - 12:00m</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end reminders -->
+                <!-- start latest post -->
+                <div class="box last-post">
+                    <h3 class="mg-20">latest post</h3>
+                    <div class="user-post">
+                        <div class="img"><img src="img/avatar.png" alt=""></div>
+                        <div class="info">
+                            <div class="name">osama elzero</div>
+                            <div class="time">about 3 hours ago</div>
+                        </div>
+                    </div>
+                    <p>
+                        you can fool of the people some of the time and some of the people all of the time,
+                        but you can't fool all of the people all of the time.`
+                    </p>
+                    <div class="reaction">
+                        <div class="love">
+                            <i class="far fa-heart"></i>
+                            1.8k
+                        </div>
+                        <div class="comment">
+                            <i class="far fa-comment"></i>
+                            500
+                        </div>
+                    </div>
+                </div>
+                <!-- end latest post -->
+                <!-- start social media -->
+                <div class="box social-media">
+                    <h3 class="mg-20">social media stats</h3>
+                    <div class="social">
+                        <i class="fab fa-twitter"></i>
+                        <p>90k followers</p>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-facebook-f"></i>
+                        <p>2M like</p>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-youtube"></i>
+                        <p>1m subs</p>
+                    </div>
+                    <div class="social">
+                        <i class="fab fa-linkedin"></i>
+                        <p>70k followers</p>
+                    </div>
+                </div>
+                <!-- end social media -->
+            </div>
+            <!-- start table projects -->
+            <div class="projects pd-20">
+                <h3 class="mg-20">projects</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>name</td>
+                            <td>finish data</td>
+                            <td>client</td>
+                            <td>price</td>
+                            <td>team</td>
+                            <td>status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ministry wikipedia</td>
+                            <td>10 may 2022</td>
+                            <td>ministry</td>
+                            <td>$5300</td>
+                            <td>
+                                <div class="imgs">
+                                    <img src="img/team-01.png" alt="">
+                                    <img src="img/team-02.png" alt="">
+                                    <img src="img/team-03.png" alt="">
+                                    <img src="img/team-04.png" alt="">
+                                </div>
+                            </td>
+                            <td><span>pending</span></td>
+                        </tr>
+                        <tr>
+                            <td>elzero shop</td>
+                            <td>12 oct 2021</td>
+                            <td>elzero company</td>
+                            <td>$1500</td>
+                            <td>
+                                <div class="imgs">
+                                    <img src="img/team-01.png" alt="">
+                                    <img src="img/team-02.png" alt="">
+                                    <img src="img/team-03.png" alt="">
+                                </div>
+                            </td>
+                            <td><span>in progress</span></td>
+                        </tr>
+                        <tr>
+                            <td>bouba app</td>
+                            <td>05 sep 2021</td>
+                            <td>bouba</td>
+                            <td>$800</td>
+                            <td>
+                                <div class="imgs">
+                                    <img src="img/team-01.png" alt="">
+                                    <img src="img/team-02.png" alt="">
+                                </div>
+                            </td>
+                            <td><span>completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>mahmoud website</td>
+                            <td>22 may 2021</td>
+                            <td>mahmoud</td>
+                            <td>$600</td>
+                            <td>
+                                <div class="imgs">
+                                    <img src="img/team-01.png" alt="">
+                                    <img src="img/team-03.png" alt="">
+                                </div>
+                            </td>
+                            <td><span>completed</span></td>
+                        </tr>
+                        <tr>
+                            <td>sayed website</td>
+                            <td>24 may 2021</td>
+                            <td>arena company</td>
+                            <td>$2600</td>
+                            <td>
+                                <div class="imgs">
+                                    <img src="img/team-02.png" alt="">
+                                    <img src="img/team-03.png" alt="">
+                                </div>
+                            </td>
+                            <td>rejected</td>
+                        </tr>
+                        <tr>
+                            <td>arena application</td>
+                            <td>01 mar 2021</td>
+                            <td>arena company</td>
+                            <td>$2600</td>
+                            <td>
+                                <div class="imgs">
+                                    <img src="img/team-05.png" alt="">
+                                    <img src="img/team-01.png" alt="">
+                                    <img src="img/team-02.png" alt="">
+                                    <img src="img/team-03.png" alt="">
+                                </div>
+                            </td>
+                            <td>completed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- end table project -->
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

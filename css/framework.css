@@ -1,0 +1,38 @@
+/* start box */
+.d-flex{
+    display: flex;
+}
+/* end box */
+.ps-relative{
+    position: relative;
+}
+.pd-10{
+    padding: 10px;
+}
+.pd-20{
+    padding: 20px;
+}
+.mg-10{
+    margin-bottom: 10px;
+}
+.mg-20{
+    margin-bottom: 20px;
+}
+.mg-50{
+    margin-bottom: 50px;
+}
+.text-center{
+    text-align: center;
+}
+.w-full{
+    width: 100%;
+}
+.shadow{
+    box-shadow: 0 0 10px black;
+}
+.border-rd{
+    border-radius: 10px;
+}
+.border-circel{
+    border-radius: 50%;
+}
